@@ -1,0 +1,17 @@
+footer {
+	@include clearfix();
+	background-color: $brand-reynolds;
+	color: #fff;
+	
+	li:before {
+		color: #fff;
+	}
+	
+	h1 {
+		font-size: 1.3em;
+	}
+
+	.footer-column {
+		@include make-md-column(3);
+	}
+}

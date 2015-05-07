@@ -1,0 +1,20 @@
+/*
+Theme Name: Developer Theme
+Theme URI: http://brand.ncsu.edu/web/themes/twentythirteen
+Author: NC State University Communications
+Author URI: http://university-communications.ncsu.edu
+Description: Basic skelton for building a WP theme at NC State.
+Version: 1.0
+*/
+
+@import "_mixins";
+@import "_variables";
+@import "global";
+
+@import "nav";
+
+@import "right-sidebar";
+@import "page";
+@import "single";
+
+@import "footer";

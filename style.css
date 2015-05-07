@@ -1,0 +1,148 @@
+/*
+Theme Name: Developer Theme
+Theme URI: http://brand.ncsu.edu/web/themes/twentythirteen
+Author: NC State University Communications
+Author URI: http://university-communications.ncsu.edu
+Description: Basic skelton for building a WP theme at NC State.
+Version: 1.0
+*/
+
+/*
+  styling featured posts
+*/
+.featured_posts {
+  display: block;
+  /* border: 1px solid #00ff00; */ 
+  padding-left: 10px;
+  height: 333px; 
+  width: 800px;
+  overflow-y: hidden;
+}
+.featured_item {
+  text-align: center;
+  display: block;
+  width: 200px;
+  height: 273px;
+  background: #eeeeee;
+  margin: 2px 2px 2px 2px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.featured_item:hover {
+  background: #cccccc;
+}
+
+.featured_posts ul {
+  list-style-type: none;
+  white-space: nowrap;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.featured_posts li {
+  white-space: none;
+  display: inline-block;
+  float: center;
+  white-space: pre-wrap;
+/*  text-align: center;
+  float: center;
+*/
+}
+
+.left-nav + .main-content {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .left-nav + .main-content {
+      float: left;
+      width: 83.3333333333%; } }
+  .left-nav + .main-content.right-sidebar {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .left-nav + .main-content.right-sidebar {
+        float: left;
+        width: 58.3333333333%; } }
+
+.main-content {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .main-content {
+      float: left;
+      width: 100%; } }
+  .main-content.right-sidebar {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .main-content.right-sidebar {
+        float: left;
+        width: 75%; } }
+
+nav.left-nav {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+  margin-top: 4em; }
+  @media (min-width: 992px) {
+    nav.left-nav {
+      float: left;
+      width: 16.6666666667%; } }
+  nav.left-nav a {
+    color: #999;
+    padding: 0.5em 0;
+    display: block; }
+    nav.left-nav a:hover {
+      color: #333; }
+  nav.left-nav .current-menu-item > a {
+    color: #333; }
+  nav.left-nav li:before {
+    display: none; }
+  nav.left-nav .sub-menu {
+    display: none; }
+  nav.left-nav .current-menu-item .sub-menu, nav.left-nav .current_page_ancestor .sub-menu {
+    display: block; }
+
+aside#right-sidebar {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    aside#right-sidebar {
+      float: left;
+      width: 25%; } }
+  aside#right-sidebar > li {
+    list-style-type: none; }
+
+footer {
+  background-color: #990000;
+  color: #fff; }
+  footer:before, footer:after {
+    content: " ";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer li:before {
+    color: #fff; }
+  footer h1 {
+    font-size: 1.3em; }
+  footer .footer-column {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      footer .footer-column {
+        float: left;
+        width: 25%; } }

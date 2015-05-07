@@ -1,0 +1,7 @@
+aside#right-sidebar {
+	@include make-md-column(3);
+	
+	& > li {
+		list-style-type: none;
+	}
+}

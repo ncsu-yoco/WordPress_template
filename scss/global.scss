@@ -1,0 +1,16 @@
+// Main column width on all web pages
+.left-nav + .main-content {
+	@include make-md-column(10);
+	
+	&.right-sidebar {
+		@include make-md-column(7);
+	}
+}
+
+.main-content{
+	@include make-md-column(12);
+	
+	&.right-sidebar {
+		@include make-md-column(9);
+	}
+}
